@@ -1,0 +1,22 @@
+{
+  "name": "my-first-astro",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "Ming-der Wang",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/svelte": "^4.0.2",
+    "@astrojs/vercel": "^5.0.1",
+    "astro": "^3.2.0",
+    "svelte": "^4.0.0"
+  }
+}
