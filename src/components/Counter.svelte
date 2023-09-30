@@ -8,7 +8,7 @@
     }
     .inverse {
       background-color: #333;
-      color: rgb(202, 31, 31);
+      color: rgb(248, 248, 12);
     }
 </style>
   

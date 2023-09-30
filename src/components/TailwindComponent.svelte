@@ -1,8 +1,16 @@
-<script lang="ts">
-    let name: string;
-  </script>
-  
-  <div class="my-5 bg-blue-200 rounded-lg p-5">
-    <h1>Hello from {name || "Svelte"}!</h1>
-    <input placeholder="enter name" bind:value={name} />
-  </div>
+<style>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+  </style>
+
+<div class="card w-96 bg-base-100 shadow-xl">
+    <figure><img src="https://uploads.disquscdn.com/images/01b18f7046286393d48027cc258da2f3578e4e50997c02712d81d7ab94487c92.jpg" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">Shoes!</h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+</div>
