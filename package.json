@@ -1,6 +1,6 @@
 {
   "name": "my-first-astro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -18,5 +18,8 @@
     "@astrojs/vercel": "^5.0.1",
     "astro": "^3.2.0",
     "svelte": "^4.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.68.0"
   }
 }
